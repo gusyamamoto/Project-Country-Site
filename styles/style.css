@@ -103,5 +103,10 @@ footer {
 
 footer p {
     margin-bottom: 0;
-    padding-bottom: 2rem;
+    padding: 2rem 2rem 0 2rem ;
+}
+
+.educational {
+    font-size: .8rem;
+    padding: 0 0 1rem 0;
 }
