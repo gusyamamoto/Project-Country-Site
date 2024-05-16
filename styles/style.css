@@ -1,0 +1,75 @@
+/* HTML */
+
+body {
+    /* Adding Roboto (Google Fonts) */
+    font-family: "Quicksand", sans-serif;
+    min-width: 20rem;
+    
+}
+
+ul {
+    list-style-type: none;
+  }
+
+a {
+    text-decoration: none;
+}
+  
+
+.site__wrapper {
+    /* Limiting the width of the whole page, excluding background color */
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+
+/* MOBILE 425px - 26.5rem */
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.logo{
+    min-width: 3rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 1.5rem;
+    
+}
+
+/* HERO SECTION */
+
+video {
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    font-family: "Freeman", sans-serif;
+    font-size: 4rem;
+    color: rgb(255, 255, 128);
+    width: fit-content;
+    position: absolute;
+    bottom: 4rem;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+/* MAIN */
