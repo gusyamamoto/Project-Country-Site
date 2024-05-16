@@ -2,7 +2,7 @@
 
 body {
     /* Adding Roboto (Google Fonts) */
-    font-family: "Quicksand", sans-serif;
+    font-family: "Roboto", sans-serif;
     min-width: 20rem;
     
 }
@@ -23,7 +23,7 @@ a {
 }
 
 
-/* MOBILE 425px - 26.5rem */
+/* MOBILE 480px - 30rem */
 
 /* NAVIGATION */
 
@@ -62,7 +62,7 @@ video {
 .hero h1 {
     font-family: "Freeman", sans-serif;
     font-size: 4rem;
-    color: rgb(255, 255, 128);
+    color: #ffff80;
     width: fit-content;
     position: absolute;
     bottom: 4rem;
@@ -73,3 +73,44 @@ video {
 }
 
 /* MAIN */
+
+blockquote {
+    margin: 4rem 2rem;
+}
+
+article h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+article img {
+    width: 80%;
+    max-width: 20rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 2px 2px 8px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #e8e8e8;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+
+footer ul {
+    margin: 0 auto;
+    padding-inline-start: 0px;
+}
+
+footer li {
+    padding: 0;
+}
