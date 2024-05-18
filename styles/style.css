@@ -35,13 +35,14 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: .5rem 0 0 1rem;
+    padding: 1rem;
 }
 
 #main-nav-list {
     height: 0;
     overflow: hidden;
     transition: height .5s ease;
+    margin-top: 0;
 }
 
 #main-nav-list.show {
@@ -61,13 +62,18 @@ nav {
     margin-right: 2rem;
 }
 
-/* RESPONSICE LAYOUT FOR 47.5em */
+/* RESPONSIVE LAYOUT FOR 47.5em */
 
 @media(min-width: 47.5em){
+
+    #burger-menu {
+        display: none;
+    }
+
     nav {
         display: flex;
         justify-content: space-between;
-        padding: .5rem 1rem;
+        padding: 1rem;
     }
     
     .logo{
@@ -76,24 +82,23 @@ nav {
     
     nav ul {
         display: flex;
+        padding: 1rem 1rem 1.8rem 1rem;
     }
     
     nav li {
         font-size: 1rem;
         font-weight: 600;
-        padding-left: 1.5rem;
+        padding-left: 1.5rem;  
+    }
+
+    #main-nav-list {
+        overflow: visible;
+    }
+
+    #main-nav-list.show {
         
     }
 }
-
-/* RESPONSICE LAYOUT FOR 47.5em */
-
-@media(min-width: 47.5em) {
-    nav li {
-        font-size: 1.3rem;
-    }
-}
-
 
 
 /* HERO SECTION */
