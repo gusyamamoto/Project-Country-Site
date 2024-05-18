@@ -16,37 +16,85 @@ a {
 }
   
 
-.site__wrapper {
+.site-wrapper {
     /* Limiting the width of the whole page, excluding background color */
     max-width: 75rem;
     margin: 0 auto;
 }
 
 
-/* MOBILE 480px - 30rem */
-
 /* NAVIGATION */
+
+/* BURGER MENU */
+
+.burger-menu {
+    background-color: transparent;
+	border: 0;
+}
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: .5rem 1rem;
+    padding: .5rem 0 0 1rem;
 }
 
-.logo{
-    min-width: 3rem;
+#main-nav-list {
+    height: 0;
+    overflow: hidden;
+    transition: height .5s ease;
 }
 
-nav ul {
+#main-nav-list.show {
+    height: 10vh;
+}
+
+.burger-menu-wrapper {
     display: flex;
+    flex-direction: column;
 }
 
-nav li {
-    font-size: 1rem;
-    font-weight: 600;
-    padding-left: 1.5rem;
-    
+.burger-menu {
+    margin-top: 1rem;
 }
+
+#main-nav-list {
+    margin-right: 2rem;
+}
+
+/* RESPONSICE LAYOUT FOR 47.5em */
+
+@media(min-width: 47.5em){
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+    
+    .logo{
+        min-width: 3rem;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+    
+    nav li {
+        font-size: 1rem;
+        font-weight: 600;
+        padding-left: 1.5rem;
+        
+    }
+}
+
+/* RESPONSICE LAYOUT FOR 47.5em */
+
+@media(min-width: 47.5em) {
+    nav li {
+        font-size: 1.3rem;
+    }
+}
+
+
 
 /* HERO SECTION */
 
@@ -72,10 +120,22 @@ video {
     margin: 0 auto;
 }
 
+/* RESPONSIVE LAYOUT FOR 47.5em */
+
+@media(min-width: 47.5em) {
+    .hero h1 {
+        font-size: 6rem;
+        bottom: 6rem;
+    }
+}
+
 /* MAIN */
 
 blockquote {
-    margin: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 article h3 {
