@@ -16,7 +16,7 @@ a {
 }
   
 
-.site__wrapper {
+.site-wrapper {
     /* Limiting the width of the whole page, excluding background color */
     max-width: 75rem;
     margin: 0 auto;
@@ -25,13 +25,9 @@ a {
 
 /* NAVIGATION */
 
-.site__wrapper ul {
-    display: none;
-}
-
 /* BURGER MENU */
 
-.burger__menu {
+.burger-menu {
     background-color: transparent;
 	border: 0;
 }
@@ -39,7 +35,30 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: .5rem 1rem;
+    padding: .5rem 0 0 1rem;
+}
+
+#main-nav-list {
+    height: 0;
+    overflow: hidden;
+    transition: height .5s ease;
+}
+
+#main-nav-list.show {
+    height: 10vh;
+}
+
+.burger-menu-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.burger-menu {
+    margin-top: 1rem;
+}
+
+#main-nav-list {
+    margin-right: 2rem;
 }
 
 /* RESPONSICE LAYOUT FOR 47.5em */
