@@ -1,4 +1,4 @@
-/* HTML */
+/* BODY ---------- BODY */
 
 body {
     /* Adding Roboto (Google Fonts) */
@@ -23,7 +23,8 @@ a {
 }
 
 
-/* NAVIGATION */
+
+/* NAVIGATION ---------- NAVIGATION */
 
 /* BURGER MENU */
 
@@ -62,9 +63,9 @@ nav {
     margin-right: 2rem;
 }
 
-/* RESPONSIVE LAYOUT FOR 47.5em */
+/* RESPONSIVE LAYOUT FOR 30em */
 
-@media(min-width: 47.5em){
+@media(min-width: 30em){
 
     #burger-menu {
         display: none;
@@ -86,7 +87,7 @@ nav {
     }
     
     nav li {
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: 600;
         padding-left: 1.5rem;  
     }
@@ -94,14 +95,11 @@ nav {
     #main-nav-list {
         overflow: visible;
     }
-
-    #main-nav-list.show {
-        
-    }
 }
 
 
-/* HERO SECTION */
+
+/* HERO SECTION ---------- HERO SECTION */
 
 video {
     width: 100%;
@@ -114,7 +112,7 @@ video {
 
 .hero h1 {
     font-family: "Freeman", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #ffff80;
     width: fit-content;
     position: absolute;
@@ -134,7 +132,27 @@ video {
     }
 }
 
-/* MAIN */
+/* RESPONSIVE LAYOUT FOR 30em */
+
+@media(min-width: 30rem) {
+    .hero h1 {
+        font-size: 4.5rem;
+        bottom: 5rem;
+    }
+}
+
+/* RESPONSIVE LAYOUT FOR 75em */
+
+@media(min-width: 75em) {
+    .hero h1 {
+        font-size: 8rem;
+        bottom: 10rem;
+    }
+}
+
+
+
+/* MAIN ---------- MAIN */
 
 blockquote {
     display: flex;
@@ -158,6 +176,119 @@ article img {
     margin: 0 auto;
     box-shadow: 2px 2px 8px;
 }
+
+article p {
+    display: none;
+}
+
+/* RESPONSIVE LAYOUT FOR 47.5em */
+
+@media(min-width: 47.5em) {
+    blockquote {
+        font-weight: 600;
+    }
+
+    article p {
+        display: block;
+        font-style: italic;
+    }
+
+    .posts {
+        padding: 1rem;
+    }
+
+
+/* GRID */
+
+    article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    /* Grid Row 1 */
+    .header-gallery {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .img-gallery {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .para-gallery {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    /* Grid Row 2 */
+    .header-food {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .img-food {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .para-food {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    /* Grid Row 3 */
+    .header-cities {
+        grid-column: 2;
+        grid-row: 5;
+    }
+
+    .img-cities {
+        grid-column: 2;
+        grid-row: 6;
+    }
+
+    .para-cities {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    article h3 {
+        margin-bottom: 1rem;
+    }
+}
+
+/* RESPONSIVE LAYOUT FOR 75em */
+
+@media(min-width: 75em) {
+    blockquote {
+        font-size: 1.2rem;
+    }
+
+    .posts {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 1rem;
+        width: 33%;
+    }
+
+    article p {
+        font-style: normal;
+        font-weight: 300;
+    }
+}
+
 
 /* FOOTER */
 
