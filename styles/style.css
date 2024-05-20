@@ -333,3 +333,22 @@ footer p {
 .banner-gallery {
     filter: brightness(60%);
 }
+
+/* MAIN ---------- MAIN - GALLERY */
+
+.posts-gallery img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* RESPONSIVE LAYOUT FOR 75em */
+
+@media(min-width: 75em) {
+    .posts-gallery {
+        display: flex;
+        flex-wrap: wrap;
+}
+}
