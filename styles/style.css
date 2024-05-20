@@ -215,7 +215,7 @@ article img:hover {
     }
 
 
-/* GRID */
+/* GRID ---------- GRID */
 
     article {
         display: grid;
@@ -308,7 +308,7 @@ article img:hover {
 }
 
 
-/* FOOTER */
+/* FOOTER ---------- FOOTER */
 
 footer {
     background-color: #e8e8e8;
@@ -323,4 +323,32 @@ footer p {
 .educational {
     font-size: .8rem;
     padding: 0 0 1rem 0;
+}
+
+
+/* GALLERY ---------- GALLERY */
+
+/* HERO ---------- HERO - GALLERY */
+
+.banner-gallery {
+    filter: brightness(60%);
+}
+
+/* MAIN ---------- MAIN - GALLERY */
+
+.posts-gallery img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* RESPONSIVE LAYOUT FOR 75em */
+
+@media(min-width: 75em) {
+    .posts-gallery {
+        display: flex;
+        flex-wrap: wrap;
+}
 }
