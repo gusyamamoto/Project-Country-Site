@@ -39,6 +39,10 @@ nav {
     padding: 1rem;
 }
 
+.logo:hover {
+    filter: brightness(50%);
+}
+
 #main-nav-list {
     height: 0;
     overflow: hidden;
@@ -61,6 +65,15 @@ nav {
 
 #main-nav-list {
     margin-right: 2rem;
+}
+
+nav a:link {
+    color: #012537;
+}
+
+nav a:hover {
+    color: #2b6728;
+    font-weight: bolder;
 }
 
 /* RESPONSIVE LAYOUT FOR 30em */
@@ -103,7 +116,7 @@ nav {
 
 video {
     width: 100%;
-    filter: brightness(60%);
+    filter: brightness(80%);
 }
 
 .hero {
@@ -174,18 +187,22 @@ article img {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    box-shadow: 2px 2px 8px;
+    box-shadow: 1px 1px 5px;
 }
 
 article p {
     display: none;
 }
 
+article img:hover {
+    filter: brightness(50%);
+}
+
 /* RESPONSIVE LAYOUT FOR 47.5em */
 
 @media(min-width: 47.5em) {
     blockquote {
-        font-weight: 600;
+        font-weight: 500;
     }
 
     article p {
@@ -265,7 +282,7 @@ article p {
 
 @media(min-width: 75em) {
     blockquote {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .posts {
@@ -286,6 +303,7 @@ article p {
     article p {
         font-style: normal;
         font-weight: 300;
+        padding: 1rem 3rem;
     }
 }
 
