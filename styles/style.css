@@ -170,7 +170,11 @@ video {
 /* HERO - GALLERY */
 
 .banner-gallery {
-    filter: brightness(60%);
+    filter: brightness(40%);
+}
+
+.food .hero img {
+    filter: brightness(40%);
 }
 
 
@@ -200,7 +204,7 @@ article img {
     box-shadow: 1px 1px 5px;
 }
 
-article p {
+.home article p {
     display: none;
 }
 
@@ -215,7 +219,7 @@ article img:hover {
         font-weight: 500;
     }
 
-    article p {
+    .home article p {
         display: block;
         font-style: italic;
     }
@@ -225,9 +229,9 @@ article img:hover {
     }
 
 
-/* GRID ---------- GRID */
+/* GRID */
 
-    article {
+   .home article {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
@@ -295,13 +299,13 @@ article img:hover {
         font-size: 1.1rem;
     }
 
-    .posts {
+    .home .posts {
         display: flex;
         justify-content: space-around;
         margin-bottom: 3rem;
     }
 
-    article {
+    .home article {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -310,7 +314,7 @@ article img:hover {
         width: 33%;
     }
 
-    article p {
+    .home article p {
         font-style: normal;
         font-weight: 300;
         padding: 1rem 3rem;
@@ -336,6 +340,11 @@ article img:hover {
 }
 }
 
+/* MAIN - FOOD */
+
+.food .posts {
+    display: block;
+}
 
 
 /* FOOTER ---------- FOOTER */
