@@ -136,10 +136,6 @@ video {
     margin: 0 auto;
 }
 
-.hero-gallery {
-    max-height: 100vh;
-}
-
 /* RESPONSIVE LAYOUT FOR 47.5em */
 
 @media(min-width: 47.5em) {
