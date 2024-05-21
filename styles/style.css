@@ -342,9 +342,29 @@ article img:hover {
 
 /* MAIN - FOOD */
 
-.food .posts {
-    display: block;
+/* RESPONSIVE LAYOUT FOR 47.5em */
+
+@media(min-width: 47.5em) {
+    .food article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .food img {
+        width: 100%;
+    }
+
+    .upper-block {
+        min-width: 40%;
+    }
+
+    .food p {
+        font-size: 1.5rem;
+    }
 }
+
 
 
 /* FOOTER ---------- FOOTER */
