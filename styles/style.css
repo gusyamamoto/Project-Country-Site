@@ -352,3 +352,11 @@ footer p {
         flex-wrap: wrap;
 }
 }
+
+
+
+/* FOOD ---------- FOOD */
+
+.banner-food {
+    filter: brightness(30%);
+}
