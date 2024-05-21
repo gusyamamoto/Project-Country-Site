@@ -169,11 +169,7 @@ video {
 
 /* HERO - GALLERY */
 
-.banner-gallery {
-    filter: brightness(40%);
-}
-
-.food .hero img {
+.hero img {
     filter: brightness(40%);
 }
 
