@@ -358,6 +358,32 @@ article img:hover {
 }
 
 
+/* MAIN - CITIES */
+
+/* RESPONSIVE LAYOUT FOR 47.5em */
+
+@media(min-width: 47.5em) {
+
+    .cities article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .cities img {
+        width: 100%;
+    }
+
+    .upper-block {
+        min-width: 40%;
+    }
+
+    .cities article p {
+        font-size: 1.2rem;
+    }
+}
+
 
 /* FOOTER ---------- FOOTER */
 
