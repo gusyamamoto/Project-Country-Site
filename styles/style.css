@@ -356,7 +356,7 @@ article img:hover {
         min-width: 40%;
     }
 
-    .food p {
+    .food article p {
         font-size: 1.5rem;
     }
 }
