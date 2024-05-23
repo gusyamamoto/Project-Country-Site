@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,56 @@
     <link rel="stylesheet" href="styles/normalize-fwd.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Freeman&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+
     <script defer src="scripts/script.js"></script>
     <title>Brazil - Cities</title>
 </head>
+
 <body class="cities">
 
     <header>
         <section class="site-wrapper">
             <nav id="main-nav" class="main-nav"><a href="index.html">
-                <svg class="logo" height="48px" width="48px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <polygon style="fill:#72C6EF;" points="345.6,480 324.8,416 187.2,416 166.4,480 "></polygon> <path style="fill:#FFFFFF;" d="M240,96h32V48c0-9.6-6.4-16-16-16s-16,6.4-16,16V96z"></path> <g> <polygon style="fill:#FAA85F;" points="336,128 336,156.8 416,145.6 416,128 "></polygon> <polygon style="fill:#FAA85F;" points="96,128 96,145.6 176,156.8 176,128 "></polygon> <polygon style="fill:#FAA85F;" points="208,128 208,262.4 304,310.4 304,128 "></polygon> </g> <polygon style="fill:#FFFFFF;" points="224,305.6 224,384 288,384 288,337.6 "></polygon> <path style="fill:#00384E;" d="M480,96H304V48c0-27.2-20.8-48-48-48s-48,20.8-48,48v48H32v32h32v46.4l112,16v92.8l16,8V384h-27.2 l-43.2,128h268.8l-43.2-128H320v-30.4l16,8V190.4l112-16V128h32V96z M240,48c0-9.6,6.4-16,16-16s16,6.4,16,16v48h-32V48z M96,145.6 V128h80v28.8L96,145.6z M324.8,416l20.8,64H166.4l20.8-64H324.8z M288,384h-64v-78.4l64,32V384z M304,310.4l-96-48V128h96V310.4z M416,145.6l-80,11.2V128h80V145.6z"></path> </g></svg>
-            </a>
-                
+                    <svg class="logo" height="48px" width="48px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <polygon style="fill:#72C6EF;" points="345.6,480 324.8,416 187.2,416 166.4,480 "></polygon>
+                            <path style="fill:#FFFFFF;" d="M240,96h32V48c0-9.6-6.4-16-16-16s-16,6.4-16,16V96z"></path>
+                            <g>
+                                <polygon style="fill:#FAA85F;" points="336,128 336,156.8 416,145.6 416,128 "></polygon>
+                                <polygon style="fill:#FAA85F;" points="96,128 96,145.6 176,156.8 176,128 "></polygon>
+                                <polygon style="fill:#FAA85F;" points="208,128 208,262.4 304,310.4 304,128 "></polygon>
+                            </g>
+                            <polygon style="fill:#FFFFFF;" points="224,305.6 224,384 288,384 288,337.6 "></polygon>
+                            <path style="fill:#00384E;"
+                                d="M480,96H304V48c0-27.2-20.8-48-48-48s-48,20.8-48,48v48H32v32h32v46.4l112,16v92.8l16,8V384h-27.2 l-43.2,128h268.8l-43.2-128H320v-30.4l16,8V190.4l112-16V128h32V96z M240,48c0-9.6,6.4-16,16-16s16,6.4,16,16v48h-32V48z M96,145.6 V128h80v28.8L96,145.6z M324.8,416l20.8,64H166.4l20.8-64H324.8z M288,384h-64v-78.4l64,32V384z M304,310.4l-96-48V128h96V310.4z M416,145.6l-80,11.2V128h80V145.6z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+
                 <section class="burger-menu-wrapper">
                     <button id="burger-menu" class="burger-menu">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+                        </svg>
                     </button>
-                    
+
                     <ul id="main-nav-list">
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="food.html">Food</a></li>
@@ -42,14 +76,17 @@
 
     <main class="site-wrapper">
         <section class="posts">
-    
+
             <article>
                 <div class="upper-block">
                     <h3>São Paulo</h3>
                     <img src="media/cities/sao-paulo.png" alt="São Paulo">
                 </div>
                 <blockquote>
-                    <p>São Paulo is the most populous city in Brazil and the capital of the state of São Paulo. It exerts strong international influences in commerce, finance, arts, and entertainment. The city's name honors the Apostle, Saint Paul of Tarsus. The city's metropolitan area, the Greater São Paulo, ranks as the most populous in Brazil and the 12th-most-populous on Earth.</p>
+                    <p>São Paulo is the most populous city in Brazil and the capital of the state of São Paulo. It
+                        exerts strong international influences in commerce, finance, arts, and entertainment. The city's
+                        name honors the Apostle, Saint Paul of Tarsus. The city's metropolitan area, the Greater São
+                        Paulo, ranks as the most populous in Brazil and the 12th-most-populous on Earth.</p>
                     <cite>Wikipedia</cite>
                 </blockquote>
             </article>
@@ -60,7 +97,11 @@
                     <img src="media/cities/rio-de-janeiro.png" alt="Rio de Janeiro">
                 </div>
                 <blockquote>
-                    <p>Rio de Janeiro is one of the most visited cities in the Southern Hemisphere and is known for its natural settings, carnival, samba, bossa nova, and balneario beaches such as Barra da Tijuca, Copacabana, Ipanema, and Leblon. In addition to the beaches, landmarks include the giant statue of Christ the Redeemer atop Corcovado mountain, named one of the New Seven Wonders of the World.</p>
+                    <p>Rio de Janeiro is one of the most visited cities in the Southern Hemisphere and is known for its
+                        natural settings, carnival, samba, bossa nova, and balneario beaches such as Barra da Tijuca,
+                        Copacabana, Ipanema, and Leblon. In addition to the beaches, landmarks include the giant statue
+                        of Christ the Redeemer atop Corcovado mountain, named one of the New Seven Wonders of the World.
+                    </p>
                     <cite>Wikipedia</cite>
                 </blockquote>
             </article>
@@ -71,7 +112,10 @@
                     <img src="media/cities/curitiba.png" alt="Curitiba">
                 </div>
                 <blockquote>
-                    <p>Curitiba is one of the few Brazilian cities with a very high Human Development Index (0.856). According to magazine Reader's Digest, Curitiba is the best "Brazilian Big City" in which to live. Curitiba's crime rate is considered low by Brazilian standards and the city is considered one of the safest cities in Brazil for youth.</p>
+                    <p>Curitiba is one of the few Brazilian cities with a very high Human Development Index (0.856).
+                        According to magazine Reader's Digest, Curitiba is the best "Brazilian Big City" in which to
+                        live. Curitiba's crime rate is considered low by Brazilian standards and the city is considered
+                        one of the safest cities in Brazil for youth.</p>
                     <cite>Wikipedia</cite>
                 </blockquote>
             </article>
@@ -82,19 +126,24 @@
                     <img src="media/cities/belo-horizonte.png" alt="Belo Horizonte">
                 </div>
                 <blockquote>
-                    <p>The region was first settled in the early 18th century, but the city as it is known today was planned and constructed in the 1890s, to replace Ouro Preto as the capital of Minas Gerais. The city features a mixture of contemporary and classical buildings and is home to several modern Brazilian architectural icons, most notably the Pampulha Complex.</p>
+                    <p>The region was first settled in the early 18th century, but the city as it is known today was
+                        planned and constructed in the 1890s, to replace Ouro Preto as the capital of Minas Gerais. The
+                        city features a mixture of contemporary and classical buildings and is home to several modern
+                        Brazilian architectural icons, most notably the Pampulha Complex.</p>
                     <cite>Wikipedia</cite>
                 </blockquote>
             </article>
-    
+
         </section>
     </main>
 
     <footer>
         <section class="site-wrapper">
-            <p>&copyGustavo Yamamoto 2024</p>
+            <p>&copyGustavo Yamamoto 2024
+            <img src="media/br-logo-3.svg" alt="Gustavo Brasil Logo"></p>
             <p class="educational">*For educational purposes*</p>
         </section>
-    </footer>   
+    </footer>
 </body>
+
 </html>

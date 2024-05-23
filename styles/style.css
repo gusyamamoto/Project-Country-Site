@@ -476,6 +476,11 @@ footer p {
     padding: 2rem 2rem 0 2rem ;
 }
 
+footer img {
+    width: 1.5rem;
+    margin-top: .5rem;
+}
+
 .educational {
     font-size: .8rem;
     padding: 0 0 1rem 0;
