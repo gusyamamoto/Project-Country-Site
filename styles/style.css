@@ -385,6 +385,19 @@ article img:hover {
 }
 
 
+
+/* CREDITS ---------- CREDITS */
+
+table {
+    border-collapse: collapse;
+  }
+
+th {
+    border: solid .1rem black;
+}
+
+
+
 /* FOOTER ---------- FOOTER */
 
 footer {
