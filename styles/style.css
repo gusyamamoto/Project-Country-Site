@@ -388,14 +388,44 @@ article img:hover {
 
 /* CREDITS ---------- CREDITS */
 
+.posts h3 {
+    font-size: 2rem;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td, th {
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+}
+
 table {
     border-collapse: collapse;
   }
 
-th {
-    border: solid .1rem black;
+td, th {
+    border: solid .05rem black;
 }
 
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #040aaa;
+    color: white;
+}
 
 
 /* FOOTER ---------- FOOTER */
