@@ -66,7 +66,6 @@
 
     <main class="site-wrapper">
         <section class="posts">
-
             <h3>Home</h3>
             <table>
                 <tr>
@@ -236,7 +235,27 @@
                     <td>pexels.com</td>
                 </tr>
             </table>
+        </section>
 
+        <section class="form">
+            <h3>Contact</h3>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email" />
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                </ul>
+                    <button type="submit">Send</button>
+            </form>
         </section>
     </main>
 

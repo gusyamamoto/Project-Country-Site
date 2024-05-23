@@ -388,7 +388,7 @@ article img:hover {
 
 /* CREDITS ---------- CREDITS */
 
-.posts h3 {
+h3 {
     font-size: 2rem;
 }
 
@@ -422,10 +422,46 @@ table tr:hover {
 table th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
+    text-align: center;
     background-color: #040aaa;
     color: white;
 }
+
+/* FORM */
+
+.form {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+  }
+
+input,
+textarea {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black#999;
+}
+
+form {
+    display: inline-block;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+form li {
+    margin-top: .5rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: black;
+}
+
 
 
 /* FOOTER ---------- FOOTER */
