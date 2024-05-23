@@ -344,7 +344,7 @@ article img:hover {
         margin: 0 auto;
     }
 
-    .food article img {
+    .food img {
         width: 100%;
     }
 
@@ -474,11 +474,6 @@ footer {
 footer p {
     margin-bottom: 0;
     padding: 2rem 2rem 0 2rem ;
-}
-
-footer img {
-    width: 1.5rem;
-    margin-top: .5rem;
 }
 
 .educational {
