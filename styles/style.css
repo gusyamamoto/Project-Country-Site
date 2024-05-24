@@ -25,6 +25,14 @@ a {
 
 /* NAVIGATION ---------- NAVIGATION */
 
+.logo {
+    margin-top: .5rem;
+}
+
+.logo:hover {
+    filter: brightness(50%);
+}
+
 /* BURGER MENU */
 
 .burger-menu {
@@ -38,9 +46,6 @@ nav {
     padding: 1rem;
 }
 
-.logo:hover {
-    filter: brightness(50%);
-}
 
 #main-nav-list {
     height: 0;
