@@ -327,6 +327,15 @@ article img:hover {
     padding: 1rem;
 }
 
+#main-site h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    font-style: italic;
+    margin: 3rem 5rem;
+    text-align: center;
+}
+
 /* RESPONSIVE LAYOUT FOR 75em */
 
 @media(min-width: 75em) {
