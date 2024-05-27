@@ -27,6 +27,7 @@ a {
 
 .logo {
     margin-top: .5rem;
+    width: 3rem;
 }
 
 .logo:hover {
@@ -182,6 +183,7 @@ blockquote {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.3rem;
 }
 
 article h3 {
@@ -292,7 +294,7 @@ article img:hover {
 
 @media(min-width: 75em) {
     blockquote {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
 
     .home .posts {
@@ -456,7 +458,7 @@ input,
 textarea {
     width: 300px;
     box-sizing: border-box;
-    border: 1px solid black#999;
+    border: 1px solid #999;
 }
 
 form {
